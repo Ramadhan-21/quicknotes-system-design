@@ -76,7 +76,7 @@ noteForm.addEventListener('submit', async (e) => {
         return;
     }
     if (title.length > 100) {
-        setStatus("Validation Error: Title must be 100 characters or less.", "error");
+        setStatus("Validation Error: Title must be 100 characters.", "error");
         return;
     }
 
